@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-opensearch`](https://www.npmjs.com/package/@aws-sdk/client-opensearch/v/3.1067.0).
+[`@aws-sdk/client-opensearch`](https://www.npmjs.com/package/@aws-sdk/client-opensearch/v/3.1068.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-opensearch - [https://cloud-sdk-builds.github.io/?sdk=client-opensearch](https://cloud-sdk-builds.github.io/?sdk=client-opensearch)
-- @aws-sdk/client-opensearch v3.1067.0 - [https://cloud-sdk-builds.github.io/?sdk=client-opensearch&version=3.1067.0](https://cloud-sdk-builds.github.io/?sdk=client-opensearch&version=3.1067.0)
+- @aws-sdk/client-opensearch v3.1068.0 - [https://cloud-sdk-builds.github.io/?sdk=client-opensearch&version=3.1068.0](https://cloud-sdk-builds.github.io/?sdk=client-opensearch&version=3.1068.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1067.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1068.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-EpRZy4OsBo7yUzKCIAAdunMqauDbo+6x4CekkVLifc2UqJ2aR2vBaHoRzVTOAJr7
+sha384-UA8M/JOakbzfUA5pMxgi9QTCg3GhaRbh8/KB7c9/GhW7vLYuUScLYaID4MWtzr2v
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-opensearch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1067.0/index.min.mjs"
+            "@aws-sdk/client-opensearch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1068.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1067.0/index.min.mjs": "sha384-EpRZy4OsBo7yUzKCIAAdunMqauDbo+6x4CekkVLifc2UqJ2aR2vBaHoRzVTOAJr7"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1068.0/index.min.mjs": "sha384-UA8M/JOakbzfUA5pMxgi9QTCg3GhaRbh8/KB7c9/GhW7vLYuUScLYaID4MWtzr2v"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-opensearch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1067.0/index.min.mjs"
+                        "@aws-sdk/client-opensearch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1068.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1067.0/index.min.mjs": "sha384-EpRZy4OsBo7yUzKCIAAdunMqauDbo+6x4CekkVLifc2UqJ2aR2vBaHoRzVTOAJr7"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearch@3.1068.0/index.min.mjs": "sha384-UA8M/JOakbzfUA5pMxgi9QTCg3GhaRbh8/KB7c9/GhW7vLYuUScLYaID4MWtzr2v"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1067.0`)
+* Always pin to a specific version (`@3.1068.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-opensearch/blob/refs/tags/3.1067.0/LICENSE
+https://github.com/cloud-sdk-builds/client-opensearch/blob/refs/tags/3.1068.0/LICENSE
 ```
 
 ---
